@@ -1,0 +1,23 @@
+.container {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.linkDiv {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+Link {
+    text-decoration: none
+}
+
+.houseIcon {
+    margin-bottom: -4px;
+    margin-right: 10px;
+}
+
+.searchIcon {
+    margin-bottom: -4px;
+    margin-right: 10px;
+}
