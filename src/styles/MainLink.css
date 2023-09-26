@@ -1,23 +1,48 @@
+* {
+    color: white;
+}
+
 .container {
-    margin-top: 70px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 250px;
 }
 
 .linkDiv {
-    font-size: 25px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
 }
 
-Link {
-    text-decoration: none
+.linkDiv a {
+    text-decoration: none;
 }
 
 .houseIcon {
     margin-bottom: -4px;
     margin-right: 10px;
+
 }
 
 .searchIcon {
     margin-bottom: -4px;
     margin-right: 10px;
+}
+
+.submitBtn {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(34, 121, 235);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.linkDiv:hover {
+    background-color: beige;
 }
