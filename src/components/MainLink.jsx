@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/MainLink.css'
-//import { FaXTwitter } from 'react-icons/fa'
 import { PiHouseSimpleFill } from 'react-icons/pi'
-import { GrSearch } from 'react-icons/gr'
 import { PiBell } from 'react-icons/pi'
 import { RiTwitterXFill } from 'react-icons/ri'
-
+import SearchIcon from '@mui/icons-material/Search';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import PendingIcon from '@mui/icons-material/Pending';
+import CropPortraitIcon from '@mui/icons-material/CropPortrait';
+import TurnedInNotIcon from '@mui/icons-material/TurnedInNot';
 
 function MainLink() {
     return (
@@ -18,33 +22,33 @@ function MainLink() {
                 <Link to='/home'><PiHouseSimpleFill className='houseIcon' /> Anasayfa</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><GrSearch className='searchIcon' /> Keşfet</Link>
+                <Link to='/home'><SearchIcon className='searchIcon' /> Keşfet</Link>
             </button>
             <button className='linkDiv'>
                 <Link to='/home'><PiBell /> Bildirimler</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Mesajlar</Link>
+                <Link to='/home'><MailOutlineIcon /> Mesajlar</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Listeler</Link>
+                <Link to='/home'><CropPortraitIcon /> Listeler</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Yer İşaretleri</Link>
+                <Link to='/home'><TurnedInNotIcon /> Yer İşaretleri</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Onaylanmış</Link>
+                <Link to='/home'><RiTwitterXFill /> Onaylanmış</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Profil</Link>
+                <Link to='/home'><PersonOutlineIcon /> Profil</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'>Daha fazla</Link>
+                <Link to='/home'><PendingIcon /> Daha fazla</Link>
             </button>
             <button className='submitBtn'>Gönder</button>
 
             <button className='changeBtn'>
-                Mert Çetin
+                Mert Çetin <MoreHorizIcon />
             </button>
         </div>
     )
