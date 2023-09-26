@@ -62,3 +62,9 @@ h3 {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 1200px) {
+    .div-container {
+        margin-left: -400px;
+    }
+}

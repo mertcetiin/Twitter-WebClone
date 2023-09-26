@@ -44,7 +44,7 @@
 
 .changeBtn {
     display: block;
-    margin-top: 280px;
+    margin-top: 220px;
     width: 200px;
     height: 50px;
     border-radius: 30px;
@@ -60,4 +60,37 @@
 
 .changeBtn:hover {
     background-color: gray;
+}
+
+@media (max-width: 1200px) {
+    .linkDiv {
+        text-indent: -9999px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .linkDiv svg {
+        position: absolute;
+        font-size: 30px;
+        padding: 5px;
+        border-radius: 30px;
+        margin-top: -30px;
+        left: 200px;
+    }
+
+    .linkDiv svg:hover {
+        background-color: gray;
+    }
+
+    .submitBtn {
+        text-indent: -9999px;
+        position: absolute;
+        font-size: 30px;
+        padding: 5px;
+        border-radius: 30px;
+        left: 85px;
+        width: 50px;
+        margin-top: -10px;
+    }
+
 }
