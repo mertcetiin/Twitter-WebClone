@@ -7,8 +7,20 @@ import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt
 import PlaceIcon from '@mui/icons-material/Place';
 import PendingActionsIcon from '@mui/icons-material/PendingActions';
 import { LiaListSolid } from 'react-icons/lia'
+import { useState } from 'react';
 
 function Home() {
+
+    const [buttonEnable, setButtonEnable] = useState(false)
+
+    const handleInputChange = (e) => {
+        if (e.target.value.trim() !== '') {
+            setButtonEnable(true);
+        } else {
+            setButtonEnable(false)
+        }
+    }
+
     return (
         <div className='div-container'>
             <MainLink />
@@ -20,15 +32,15 @@ function Home() {
                 </div>
                 <div className="input-container">
                     <img src="" alt="" />
-                    <input type="text" placeholder='Neler oluyor?' />
+                    <input type="text" placeholder='Neler oluyor?' onChange={handleInputChange} />
                     <div className='icons-btn'>
-                        <InsertPhotoIcon />
+                        <InsertPhotoIcon color="action" />
                         <GifBoxIcon />
                         <LiaListSolid />
                         <SentimentSatisfiedAltIcon />
                         <PendingActionsIcon />
                         <PlaceIcon />
-                        <button className='homeBtn'>Gönder</button>
+                        <button disabled={!buttonEnable} className='homeBtn'>Gönder</button>
                     </div>
                 </div>
             </div>
