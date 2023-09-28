@@ -8,6 +8,7 @@ import PlaceIcon from '@mui/icons-material/Place';
 import PendingActionsIcon from '@mui/icons-material/PendingActions';
 import { LiaListSolid } from 'react-icons/lia'
 import { useState } from 'react';
+import Discover from './Discover';
 
 function Home() {
 
@@ -46,9 +47,8 @@ function Home() {
                         <button disabled={!buttonEnable} className='homeBtn'>Gönder</button>
                     </div>
                 </div>
-
-
             </div>
+            <Discover />
         </div>
     )
 }

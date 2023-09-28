@@ -1,0 +1,62 @@
+.discover-container {
+    display: block;
+    height: 100vh;
+
+}
+
+
+.header-input {
+    margin-left: 25px;
+    background-color: gray;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.header-input input {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.premium-container {
+    margin-top: 15px;
+    width: 280px;
+    margin-left: 25px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.premium-container h3 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.premium-container h4 {
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.premium-container button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(18, 137, 248);
+}
+
+@media (max-width: 1200px) {
+    .discover-container {
+        display: none;
+    }
+}

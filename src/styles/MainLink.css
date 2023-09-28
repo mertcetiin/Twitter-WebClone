@@ -3,7 +3,7 @@
 }
 
 .container {
-    margin-left: 300px;
+    margin-left: 330px;
 }
 
 .linkDiv {
@@ -24,7 +24,7 @@
 .linkIcons {
     width: 26.25px;
     height: 26.25px;
-    margin-bottom: -4px;
+    margin-bottom: -6px;
     margin-right: 10px;
 }
 
@@ -91,7 +91,7 @@
         position: absolute;
         padding: 5px;
         border-radius: 100%;
-        left: 75px;
+        left: 105px;
         width: 45px;
         height: 45px;
         margin-top: 10px;
@@ -103,6 +103,6 @@
     }
 
     .changeBtnIcon {
-        margin-left: 50px;
+        margin-left: 70px;
     }
 }
