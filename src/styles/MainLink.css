@@ -3,32 +3,29 @@
 }
 
 .container {
-    margin-left: 280px;
+    margin-left: 300px;
 }
 
 .linkDiv {
-    font-size: 20px;
+    font: 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     display: block;
     border: none;
     background: none;
     cursor: pointer;
     padding: 10px;
     border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .linkDiv a {
     text-decoration: none;
 }
 
-.houseIcon {
+.linkIcons {
+    width: 26.25px;
+    height: 26.25px;
     margin-bottom: -4px;
     margin-right: 10px;
-}
-
-.searchIcon {
-    margin-bottom: -4px;
-    margin-right: 10px;
-    color: white;
 }
 
 .submitBtn {
@@ -43,8 +40,11 @@
 }
 
 .changeBtn {
-    display: block;
-    margin-top: 230px;
+    display: flex;
+    margin-top: 250px;
+    padding-left: 53px;
+    padding-top: 18px;
+    gap: 55px;
     width: 200px;
     height: 50px;
     border-radius: 30px;
@@ -52,6 +52,10 @@
     border: none;
     cursor: pointer;
     background: none;
+}
+
+.changeBtnIcon {
+    margin-top: -5px;
 }
 
 .linkDiv:hover {
@@ -74,8 +78,8 @@
         font-size: 30px;
         padding: 5px;
         border-radius: 30px;
-        margin-top: -30px;
-        left: 200px;
+        margin-top: -20px;
+        left: 170px;
     }
 
     .linkDiv svg:hover {
@@ -85,12 +89,20 @@
     .submitBtn {
         text-indent: -9999px;
         position: absolute;
-        font-size: 30px;
         padding: 5px;
-        border-radius: 30px;
-        left: 85px;
-        width: 50px;
-        margin-top: -10px;
+        border-radius: 100%;
+        left: 75px;
+        width: 45px;
+        height: 45px;
+        margin-top: 10px;
     }
 
+    .changeBtn {
+        text-indent: -9999px;
+        margin-top: 200px;
+    }
+
+    .changeBtnIcon {
+        margin-left: 50px;
+    }
 }

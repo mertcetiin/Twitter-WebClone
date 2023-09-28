@@ -19,36 +19,36 @@ function MainLink() {
                 <RiTwitterXFill />
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><PiHouseSimpleFill className='houseIcon' /> Anasayfa</Link>
+                <Link to='/home'><PiHouseSimpleFill className='linkIcons' /> Anasayfa</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><SearchIcon className='searchIcon' /> Keşfet</Link>
+                <Link to='/home'><SearchIcon className='linkIcons' /> Keşfet</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><PiBell /> Bildirimler</Link>
+                <Link to='/home'><PiBell className='linkIcons' /> Bildirimler</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><MailOutlineIcon /> Mesajlar</Link>
+                <Link to='/home'><MailOutlineIcon className='linkIcons' /> Mesajlar</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><CropPortraitIcon /> Listeler</Link>
+                <Link to='/home'><CropPortraitIcon className='linkIcons' /> Listeler</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><TurnedInNotIcon /> Yer İşaretleri</Link>
+                <Link to='/home'><TurnedInNotIcon className='linkIcons' /> Yer İşaretleri</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><RiTwitterXFill /> Onaylanmış</Link>
+                <Link to='/home'><RiTwitterXFill className='linkIcons' /> Onaylanmış</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><PersonOutlineIcon /> Profil</Link>
+                <Link to='/home'><PersonOutlineIcon className='linkIcons' /> Profil</Link>
             </button>
             <button className='linkDiv'>
-                <Link to='/home'><PendingIcon /> Daha fazla</Link>
+                <Link to='/home'><PendingIcon className='linkIcons' /> Daha fazla</Link>
             </button>
             <button className='submitBtn'>Gönder</button>
 
             <button className='changeBtn'>
-                Mert Çetin <MoreHorizIcon />
+                Mert Çetin <MoreHorizIcon className='changeBtnIcon' />
             </button>
         </div>
     )

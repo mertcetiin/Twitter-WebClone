@@ -30,11 +30,14 @@ function Home() {
                     <Link className='sana-div'>Sana özel</Link>
                     <Link className='takip-div'>Takip edilenler</Link>
                 </div>
+
                 <div className="input-container">
-                    <img src="" alt="" />
-                    <input type="text" placeholder='Neler oluyor?' onChange={handleInputChange} />
+                    <div className='input-div'>
+                        <img src="" alt="" />
+                        <input type="text" placeholder='Neler oluyor?' onChange={handleInputChange} />
+                    </div>
                     <div className='icons-btn'>
-                        <InsertPhotoIcon color="action" />
+                        <InsertPhotoIcon style={{ color: 'blue' }} />
                         <GifBoxIcon />
                         <LiaListSolid />
                         <SentimentSatisfiedAltIcon />
@@ -43,6 +46,8 @@ function Home() {
                         <button disabled={!buttonEnable} className='homeBtn'>Gönder</button>
                     </div>
                 </div>
+
+
             </div>
         </div>
     )
